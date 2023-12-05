@@ -1,0 +1,13 @@
+// Format:
+// GATE_TYPE Input1 Input2...Output
+// 
+// Ignore blank lines, lines with spaces only, and lines starting with "//"
+
+PRIMARY_INPUTS A B
+PRIMARY_OUTPUTS E F G
+INTERNAL_SIGNALS C D
+INV A C
+AND2 C B D
+NAND2 C D E
+INV D F
+INV C G
